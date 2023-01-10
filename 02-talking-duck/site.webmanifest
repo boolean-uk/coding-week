@@ -1,0 +1,14 @@
+{
+  "short_name": "Talking Duck",
+  "name": "Talking Duck",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "background_color": "#f71469",
+  "theme_color": "#f71469",
+  "display": "fullscreen"
+}
