@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Week - Codigotchi</title>
+
+    <!-- Manifest -->
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- Icon Tab Browser -->
+    <link rel="icon" href="images/icon.png" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="images/logo.png" alt="Coding Week Logo">
+        </header>
+
+        <main>
+            <!-- Codigotchi and its screen -->
+            <section class="codigotchi">
+                <img src="images/codigotchi.png" alt="">
+                <div id="screen" class="codigotchi-screen"></div>
+            </section>
+
+            <!-- Panels -->
+            <section id="panels-data" class="panels">
+                <!-- Microphone Panel -->
+                <div class="panel panel-microphone">
+                    <button id="microphone">
+                        <img src="images/mic.png" alt="microphone">
+                    </button>
+                    <h2>Activate microphone</h2>
+                </div>
+
+                <!-- Command Panel -->
+                <div class="panel panel-commands">
+                    <h2>Interact with voice commands!</h2>
+                    <h3>Supported Commands</h3>
+                    <div class="commands">
+                        <ul>
+                            <li>Eat</li>
+                            <li>Dance</li>
+                            <li>Sleep</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Transcript -->
+            <p id="transcript"></p>
+        </main>
+    </div>
+
+</body>
+
+</html>
