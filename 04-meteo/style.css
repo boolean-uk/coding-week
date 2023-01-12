@@ -1,0 +1,90 @@
+/* Custom properties */
+:root {
+  --font: 'Roboto', sans-serif;
+  --gradient: linear-gradient(to bottom, #ebeffd, #85a5fa);
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generic rules */
+html {
+  height: 100vh;
+  line-height: 1;
+  font-family: var(--font);
+  background-attachment: fixed;
+  background-image: var(--gradient);
+}
+
+.container {
+  width: 90vw;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+/* Header */
+header img {
+  width: 56px;
+  height: auto;
+}
+
+main {
+  text-align: center;
+}
+
+/* Weather info */
+
+.weather-info {
+  margin-bottom: 16px;
+}
+
+.weather-icon {
+  max-width: 100%;
+
+  transition: transform 0.3s, opacity 1s;
+  transition-delay: 0.2s;
+}
+
+.weather-location {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.weather-temperature {
+  font-size: 112px;
+}
+
+/*  Panel */
+.panel {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+
+  transition: transform 0.3s, opacity 0.3s;
+  transition-delay: 0.2s;
+}
+
+.panel-title {
+  color: #4c6c96;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.js-loading .weather-icon {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.js-loading .panel {
+  opacity: 0;
+  transform: scale(0);
+}

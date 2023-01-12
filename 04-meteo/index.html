@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="js-loading">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- webmanifest -->
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- Icon -->
+    <link rel="icon" href="images/icon.png" type="image/png" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- JavaScript -->
+    <script defer src="script.js"></script>
+
+    <title>Weather App | Coding Week</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- Header with logo -->
+      <header>
+        <img src="images/logo.png" alt="Coding Week Logo" />
+      </header>
+
+      <!-- Main section -->
+      <main>
+        <!-- Weather info -->
+        <div class="weather-info">
+          <img class="weather-icon" src="images/13n.png" alt="Weather Icon" />
+          <div class="weather-location">Retrieving data...</div>
+          <div class="weather-temperature"></div>
+        </div>
+
+        <!-- Info Panel -->
+        <div class="panel">
+          <h4 class="panel-title">Info</h4>
+          <div class="description">Brrr! It's cold!</div>
+        </div>
+      </main>
+    </div>
+
+  </body>
+</html>

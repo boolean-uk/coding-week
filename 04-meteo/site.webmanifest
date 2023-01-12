@@ -1,0 +1,12 @@
+{
+  "short_name": "Meteo",
+  "name": "Meteo",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "background_color": "#3535EC",
+  "theme_color": "#3535EC",
+  "display": "fullscreen"
+}
