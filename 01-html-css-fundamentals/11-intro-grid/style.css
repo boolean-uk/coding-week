@@ -1,0 +1,21 @@
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+
+    /* show with just display grid first */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-auto-rows: 200px; */
+
+    /* place-items: center; */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid red;
+}

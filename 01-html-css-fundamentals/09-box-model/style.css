@@ -1,0 +1,51 @@
+.rectangle {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+
+    /* shorthand */
+    /* border: 3px solid black; */
+
+    /* one side at a time */
+    /* border-top: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 5px solid black;
+    border-left: 3px solid black; */
+
+    /* be specific*/
+    /* border-style: solid dashed;
+    border-width: 2px 5px 10px;
+    border-color: blue orange purple green;
+
+    border-radius: 10px; */
+
+    /* show margin */
+    /* margin: 50px; */
+
+    /* horizontally centered */
+    /* margin: 0 auto; */
+}
+
+.circle {
+    /* width: 300px;
+    height: 300px;
+    background-color: blue; */
+    /* circles are squares, but curved! */
+    /* border-radius: 50%; */
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+
+    /* adding padding increases dimensions */
+    padding: 50px;
+
+    /* unless you specify how dimensions are calculated in CSS */
+    box-sizing: border-box;
+}

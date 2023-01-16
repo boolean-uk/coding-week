@@ -1,0 +1,22 @@
+p {
+    /* font-family: 'Nunito', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400; */
+}
+
+h1 {
+    /* text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2; */
+}
+
+button {
+    /* background-color: #A2CC85; */
+    /* background-color: rgb(162, 204, 133); */
+    /* background-color: rgba(162, 204, 133, 0.75);  */
+}
+
+button:hover {
+    /* background-color: #568b31; */
+}

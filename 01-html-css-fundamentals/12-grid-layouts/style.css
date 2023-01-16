@@ -1,0 +1,52 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: grid;
+
+    /* grid-template-areas:
+      "header header"
+      "menu main"
+      "footer footer";
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 80px 1fr 80px; */
+}
+
+/* header {
+  grid-area: header;
+}
+
+div.container div {
+  grid-area: menu;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+} */
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+/* @media screen and (max-width: 800px) {
+  .container {
+      grid-template-areas:
+        "header"
+        "main"
+        "footer";
+      grid-template-columns: 1fr;
+      grid-template-rows: 80px 1fr 80px;
+  }
+} */

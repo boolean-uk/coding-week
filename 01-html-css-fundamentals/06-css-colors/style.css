@@ -1,0 +1,15 @@
+.red-name {
+    color: red;
+}
+
+.red-rgb {
+    color: rgb(255, 0, 0);
+}
+
+.red-hex {
+    color: #ff0000;
+}
+
+.red-rgba {
+    color: rgba(255, 0, 0, 0.5);
+}

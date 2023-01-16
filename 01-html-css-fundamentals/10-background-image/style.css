@@ -1,0 +1,23 @@
+div {
+    margin: 25px;
+}
+
+.photo {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+
+    /* show adding image as background */
+    background-image: url("img/duck.png");
+
+    /* show different sizing */
+    background-size: contain;
+    /* background-size: cover; */
+    /* background-size: 30%; */
+    /* background-size: 200px 400px; */
+
+
+    /* show background repeat & position */
+    background-repeat: no-repeat;
+    background-position: center;
+}
