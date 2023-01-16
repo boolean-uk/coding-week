@@ -72,11 +72,6 @@ button {
     background-color: var(--pink);
 }
   
-button:disabled {
-    opacity: 0.6;
-    background-color: #dedede;
-}
-  
 button img {
     vertical-align: middle;
 }
