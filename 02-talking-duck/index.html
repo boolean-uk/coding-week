@@ -25,7 +25,7 @@
     <title>Talking Duck</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <!-- Header -->
       <header>
         <img src="images/logo.png" alt="Logo Coding Week" />
@@ -37,20 +37,20 @@
         <textarea placeholder="Write something..."></textarea>
 
         <!-- Controls -->
-        <div>
+        <div class="controls">
           <button>
             <img src="images/play.png" alt="Play Button" />
           </button>
 
           <!-- Audio controls -->
-          <div>
-            <label>Pitch</label>
-            <input type="range" />
+          <div class="pitch-controls">
+            <label for="pitch-range">Pitch</label>
+            <input id="pitch-range" min="0.1" max="2" step="0.1" value="1" type="range" />
           </div>
         </div>
 
         <!-- Duck -->
-        <figure>
+        <figure class="duck">
           <img src="images/talking-duck-static.png" alt="Static Duck" />
           <img src="images/talking-duck-animated.gif" alt="Animated Duck" />
         </figure>
