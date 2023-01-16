@@ -71,6 +71,11 @@ button {
     height: 56px;
     background-color: var(--pink);
 }
+
+button:disabled {
+    opacity: 0.6;
+    background-color: #dedede;
+}
   
 button img {
     vertical-align: middle;
@@ -89,4 +94,14 @@ label {
 #pitch-range {
     width: 100%;
     accent-color: white;
+}
+
+/* # TALKING CLASS */
+
+.talking .static-duck {
+    display: none;
+}
+  
+.talking .animated-duck {
+    display: block;
 }
