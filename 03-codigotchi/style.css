@@ -1,0 +1,68 @@
+/* Step one: get things to fit on the screen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient(#838ef9, #3535ec);
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* End step one */
+
+/* Step two: Control panels */
+header img {
+    width: 56px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: #4c6c96;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px 24px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.commands ul {
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.commands ul li {
+    font-size: 24px;
+    font-weight: bold;
+}
