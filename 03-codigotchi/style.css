@@ -94,3 +94,23 @@ button {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.panel-commands {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.listening .panel-commands {
+    visibility: visible;
+}
+
+.listening .panel-microphone {
+    visibility: hidden;
+    transform: scale(0.1);
+}
+
+.panels {
+    position: relative;
+}
