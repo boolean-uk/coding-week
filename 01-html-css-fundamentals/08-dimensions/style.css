@@ -1,18 +1,18 @@
 
 div {
     /* divs have no inherent dimensions */
-    background-color: red;
+    background-color: rgb(152, 218, 217);
 
     /* width: 80%; */
     /* replace 80% with 800px */
     /* width: 800px; */
     /* replace width with max-width */
-    /* max-width: 800px; */
+    max-width: 800px;
 
 
     /* height: 80px; */
     /* replace height with min-height */
     /* min-height: 80px; */
     /* replace px with vh */
-    /* min-height: 100vh; */
+    min-height: 100vh;
 }

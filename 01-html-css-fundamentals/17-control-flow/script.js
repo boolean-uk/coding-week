@@ -1,4 +1,4 @@
-const x = 3;
+const x = 4;
 const y = 4;
 // 
 // if(x === 3) {
@@ -15,9 +15,9 @@ const y = 4;
 //     console.log('X is not 3');
 // }
 //
-// if(x === 3 && y === 4) {
-//     console.log('X is 3 and y is 4');
-// }
+if(x === 3 && y === 4) {
+    console.log('X is 3 and y is 4');
+}
 //
 // if(x === 3 || y === 4) {
 //     console.log('X is 3 or y is 4');

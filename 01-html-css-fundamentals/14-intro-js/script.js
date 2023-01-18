@@ -1,3 +1,3 @@
-console.log('Hello World!');
+console.log('Hello CODING WEEK!');
 
 // debugger

@@ -1,6 +1,14 @@
 /*
 selector {
     property: value;
-    property: value;
+    property: value;s
 }
 */
+
+h1 {
+    color: blue;
+}
+
+.highlight {
+    color: red;
+}
