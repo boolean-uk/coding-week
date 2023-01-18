@@ -66,3 +66,31 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
+
+/* Step 3: Codigotchi and Button */
+
+button {
+    border: none;
+    background-color: #f71469;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 12px;
+}
+
+.codigotchi {
+    position: relative;
+    width: 230px;
+    margin: 0 auto 24px auto;
+}
+
+.codigotchi-screen {
+    position: absolute;
+    top: 118px;
+    left: 56px;
+    width: 120px;
+    height: 120px;
+    background-image: url('./images/static.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
