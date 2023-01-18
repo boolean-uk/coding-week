@@ -2,6 +2,9 @@
 const micBtn = document.getElementById('microphone')
 const panelsData = document.getElementById('panels-data')
 const transcript = document.getElementById('transcript')
+const screen = document.getElementById('screen')
+
+const commands = ['eat', 'sleep', 'dance']
 
 // Set a default SpeechRecognition browser library to use
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
@@ -28,6 +31,28 @@ function onResult(event) {
 
     // Add what we spoke to the transcript HTML element for visibility
     transcript.textContent = `You said: ${text}`
+
+    // Look at my list of commands
+    // Try to find one that matches the word spoken
+    const action = commands.find(function (command) {
+        return text.toLowerCase().includes(command)
+    })
+
+    // If it matches an available command, add a relevant CSS class
+
+    if (action) {
+        // You spoke a valid command
+        screen.classList.add(`codigotchi-screen_${action}`)
+    } else {
+        // You said something off-script!
+        transcript.textContent += ' - not a valid command!'
+    }
+
+    // Show the animated GIF for 2 seconds, then remove the css class added
+    setTimeout(function () {
+        screen.classList.remove(`codigotchi-screen_${action}`)
+        transcript.innerText = ''
+    }, 3000)
 }
 
 // If anything goes wrong (it shouldn't), let us know in the console

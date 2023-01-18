@@ -95,6 +95,18 @@ button {
     background-size: contain;
 }
 
+.codigotchi-screen_dance {
+    background-image: url('./images/codigotchi-actions/dance.gif');
+}
+
+.codigotchi-screen_sleep {
+    background-image: url('./images/codigotchi-actions/sleep.gif');
+}
+
+.codigotchi-screen_eat {
+    background-image: url('./images/codigotchi-actions/eat.gif');
+}
+
 .panel-commands {
     visibility: hidden;
     position: absolute;
@@ -113,4 +125,8 @@ button {
 
 .panels {
     position: relative;
+}
+
+#transcript {
+    font-weight: bold;
 }
